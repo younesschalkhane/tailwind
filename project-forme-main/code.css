@@ -1,0 +1,80 @@
+.chek{
+
+    padding: flex;
+    width: 400px;
+    height: 10px;
+    padding: 20px;
+    justify-content: flex-end;     
+
+}
+
+
+
+    a{
+        text-decoration: none;
+    }
+
+
+    h2{
+        align-content: center;
+       
+
+    }
+
+
+
+body{
+
+    background-color: rgb(241, 241, 241);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+form{
+
+     
+     background-color: rgb(240, 240, 254);
+     
+     
+}
+
+
+.wac{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    margin: 60px;
+    background-color: rgb(90, 153, 220);
+    color: aliceblue;
+    font-size: large;
+
+    
+
+}
+
+
+p{
+    text-align: center;
+
+}
+
+
+button{
+
+    text-align: center;
+}
+
+h2{
+    
+    text-align: center;
+}
