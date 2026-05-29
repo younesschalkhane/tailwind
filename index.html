@@ -9,42 +9,189 @@
 
 <body>
 
-    <!-- Section 1  Navber -->
+  <!-- TAILWIND CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
 
-  <section>
+<!-- NAVBAR -->
+<header class="bg-white sticky top-0 z-50 shadow-lg border-b border-gray-200">
 
-  <!-- Top Bar -->
-  <div class="bg-gray-800 text-gray-200 text-sm">
-    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-2">
+  <div class="max-w-7xl mx-auto px-6">
 
-      <p>
-        Besoin d'aide ? Appelez-nous au
-        <span class="text-blue-400 font-semibold">+212 720-817442</span>
-      </p>
+    <div class="flex items-center justify-between h-24">
 
+      <!-- LEFT -->
+      <div class="flex items-center gap-4">
 
-       </div>
-    </div>
+        
 
-     <!-- Logo -->
-       <div class="flex items-center">
-        <h1 class="text-2xl font-bold">SMART HOME</h1>
+        <!-- LOGO TEXT -->
+        <div>
+
+          <h1 class="text-3xl font-extrabold text-gray-800 tracking-wide">
+            SMART HOME
+          </h1>
+
+          
+
+        </div>
+
       </div>
 
+      <!-- CENTER MENU -->
+      <nav class="hidden lg:flex items-center gap-10">
 
-       <!-- Navigation -->
-      <nav class="space-x-6">
-        <a href="#" class="text-gray-200 hover:text-white">Home</a>
-        <div class="inline-block relative">
-          <button class="text-gray-200 hover:text-white">Pages</button>
-          <ul class="absolute hidden bg-white text-gray-800 shadow-lg mt-2 w-40 rounded-lg">
-            <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Home</a></li>
-            <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Page 2</a></li>
-            <li><a href="#" class="block px-4 py-2 hover:bg-gray-200">Page 3</a></li>
-          </ul>
-        </div>
-        <a href="#" class="text-gray-200 hover:text-white">Contact Us</a>
+        <!-- HOME -->
+        <a href="#"
+          class="group flex items-center gap-2 text-gray-600 hover:text-blue-500 transition duration-300">
+
+          <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5 group-hover:scale-110 transition"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+
+            <path stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 10l9-7 9 7v11a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V10z"/>
+          </svg>
+
+          <span class="font-medium">
+            Home
+          </span>
+
+        </a>
+
+        <!-- SERVICES -->
+        <a href="#"
+          class="group flex items-center gap-2 text-gray-600 hover:text-blue-500 transition duration-300">
+
+          <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5 group-hover:rotate-12 transition"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+
+            <path stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M19.428 15.341A8 8 0 118.659 4.572 8 8 0 0119.428 15.34z"/>
+          </svg>
+
+          <span class="font-medium">
+            Services
+          </span>
+
+        </a>
+
+        <!-- ABOUT -->
+        <a href="#"
+          class="group flex items-center gap-2 text-gray-600 hover:text-blue-500 transition duration-300">
+
+          <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5 group-hover:scale-110 transition"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+
+            <path stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M13 16h-1v-4h-1m1-4h.01M21 12A9 9 0 1112 3a9 9 0 019 9z"/>
+          </svg>
+
+          <span class="font-medium">
+            About
+          </span>
+
+        </a>
+
+        <!-- CONTACT -->
+        <a href="#"
+          class="group flex items-center gap-2 text-gray-600 hover:text-blue-500 transition duration-300">
+
+          <svg xmlns="http://www.w3.org/2000/svg"
+            class="w-5 h-5 group-hover:-rotate-12 transition"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor">
+
+            <path stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8m-18 9h18a2 2 0 002-2V7a2 2 0 00-2-2H3a2 2 0 00-2 2v8a2 2 0 002 2z"/>
+          </svg>
+
+          <span class="font-medium">
+            Contact
+          </span>
+
+        </a>
+
       </nav>
+
+      <!-- RIGHT -->
+      <div class="hidden lg:flex items-center gap-6">
+
+        <!-- PHONE -->
+        <div class="flex items-center gap-3">
+
+          <div class="w-12 h-12 rounded-full bg-gray-100 border border-gray-200 flex items-center justify-center">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+              class="w-5 h-5 text-blue-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+
+              <path stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M3 5a2 2 0 012-2h2.28a2 2 0 011.94 1.515l.516 2.064a2 2 0 01-.45 1.94l-1.27 1.27a16 16 0 006.586 6.586l1.27-1.27a2 2 0 011.94-.45l2.064.516A2 2 0 0121 16.72V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
+            </svg>
+
+          </div>
+
+          <div>
+
+            <p class="text-xs uppercase tracking-[2px] text-gray-400">
+                Appelez-nous
+
+            </p>
+
+            <h4 class="text-gray-800 font-semibold">
+              +212 720-817442
+            </h4>
+
+          </div>
+
+        </div>
+
+        
+      </div>
+
+      
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+          class="w-8 h-8"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+
+          <path stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+
+      </button>
+
+    </div>
+
+  </div>
+
+</header>
+
 
 
   
